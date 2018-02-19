@@ -1,5 +1,5 @@
 const humanCatDogYears = (number) => {
-  let array = [number]
+  const array = [number]
 	if (number === 0){
     array[1] = 0
     array[2] = 0
