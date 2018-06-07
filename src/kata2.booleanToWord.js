@@ -1,5 +1,5 @@
 const booleanToWord = (boolean) => {
-     if (boolean === true) {
+     if (boolean) {
         return 'Yes'
     } else { return 'No'}
 };
