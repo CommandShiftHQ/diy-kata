@@ -4,6 +4,7 @@ const numberToReversedDigits = require('./kata3.numberToReversedDigits');
 const humanCatDogYears = require('./kata4.humanCatDogYears');
 const reachDestination = require('./kata5.reachDestination');
 const joinNames = require('./kata6.joinNames');
+const getEmployerRole = require('./kata7.getEmployerRole');
 
 module.exports = {
   fizzBuzz,
@@ -11,5 +12,6 @@ module.exports = {
   numberToReversedDigits,
   humanCatDogYears,
   reachDestination,
-  joinNames
+  joinNames,
+  getEmployerRole
 };
