@@ -4,4 +4,17 @@ describe('numberToReversedDigits', () => {
   it('returns a reversed array of the number\'s digits', () => {
     expect(numberToReversedDigits(12345)).toEqual([5,4,3,2,1])
   });
+
+  it('returns a reversed array of the number\'s digits', () => {
+    expect(numberToReversedDigits(5689)).toEqual([9,8,6,5])
+  });
+
+  it('returns a reversed array of the number\'s digits', () => {
+    expect(numberToReversedDigits(39136)).toEqual([6,3,1,9,3])
+  });
+
+  it('returns a reversed array of the number\'s digits', () => {
+    expect(numberToReversedDigits(11111)).toEqual([1,1,1,1,1])
+  });
+
 });

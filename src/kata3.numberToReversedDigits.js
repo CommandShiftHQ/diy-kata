@@ -1,5 +1,5 @@
 const numberToReversedDigits = (number) => {
-    
+
    const digits = number.toString().split('').map(
        function(elem) {
         return parseInt(elem);
@@ -9,4 +9,5 @@ const numberToReversedDigits = (number) => {
    return digits.reverse();
 
 };
+
 module.exports = numberToReversedDigits;

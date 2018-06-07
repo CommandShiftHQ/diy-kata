@@ -1,10 +1,12 @@
 const booleanToWord = (boolean) => {
-    if(boolean === true) { /*explicit check to make sure no none relevant
+    if (boolean === true) { /*explicit check to make sure no none relevant
                               values submitted*/
-        return 'yes'
+        return 'yes';
+    } else if (boolean === false) {
+        return 'no';
     } else {
-        return 'no'
+      return 'error';
     }
-}
-
+  };
 module.exports = booleanToWord;
+
