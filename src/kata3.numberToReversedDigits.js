@@ -1,13 +1,12 @@
 const numberToReversedDigits = (number) => {
 
-let num = number;
-let output = [];
-
-while (num) {
-    output.push(num % 10);
-    num = Math.floor(num/10);
-}
-return output;
+const tostring = number.toString();
+const split = tostring.split('');
+let map = split.map(function(result) {
+  return parseInt(result);
+})
+let rev = map.reverse();
+return rev;
 }
 
 module.exports = numberToReversedDigits;
