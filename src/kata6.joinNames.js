@@ -19,7 +19,6 @@ const joinNames = (namesObj) => {
  }
 };
 
-
 const result = nameArray.join(' ');
 
 
