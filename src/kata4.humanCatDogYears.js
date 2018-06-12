@@ -13,6 +13,7 @@ const humanCatDogYears = (number) => {
       array.push(24);
       array.push(25);
       return array;
+
     } else {
       array.push(number);
       array.push(24 +((number - 2) * 4));
