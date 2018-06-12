@@ -11,6 +11,7 @@ const reachDestination = (distance, speed) => {
         if (twoDecArr[1] >= 0 && twoDecArr[1] <= 49) {
             twoDecArr[1] = 5;
         } else {
+            twoDecArr[0]++;
             twoDecArr[1] = 0;
       };
 

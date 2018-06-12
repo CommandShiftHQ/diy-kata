@@ -1,25 +1,39 @@
 const humanCatDogYears = (number) => {
 
   let hcdy = [];
-    hcdy.push(number);
 
-    const cat = function (number) {
-        let x = ( number - 2 ) * 4;
-          let res = x + 24;
-            return res;
-    }
+      hcdy.push(number);
 
-    hcdy.push(cat(number));
+  const cat = function (number) {
 
-    const dog = function (number) {
-        let x = ( number - 2 ) * 5;
-          let res = x + 24;
-            return res;
-    }
+      if (number === 1) {
+          hcdy.push(15);
+      } else if (number === 2) {
+          hcdy.push(24);
+      } else {
 
-    hcdy.push(dog(number));
+      let dy = ( number - 2 ) * 4;
+        let res = dy + 24;
+        hcdy.push(res);
+    };
+};
 
-    return hcdy;
-}
+  const dog = function (number) {
+
+    if (number === 1) {
+        hcdy.push(15);
+    } else if (number === 2) {
+        hcdy.push(24);
+    } else {
+
+    let dy = ( number - 2 ) * 5;
+      let res = dy + 24;
+      hcdy.push(res);
+};
+};
+cat(number);
+dog(number);
+return hcdy;
+};
 
 module.exports = humanCatDogYears;
