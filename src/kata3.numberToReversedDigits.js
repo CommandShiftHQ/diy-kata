@@ -1,10 +1,6 @@
 const numberToReversedDigits = (number) => {
 
-   const digits = number.toString().split('').map(
-       function(elem) {
-        return parseInt(elem);
-       }
-   )
+   const digits = number.toString().split('').map(elem => parseInt(elem));
 
    return digits.reverse();
 

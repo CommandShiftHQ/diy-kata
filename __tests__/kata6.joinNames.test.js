@@ -16,8 +16,9 @@ describe('joinNames', () => {
         name: 'Paul'
       }, {
         name: 'Ringo'
-      }, {name: 'George'
-    }])).toBe('John, Paul, Ringo & George');
+      }, {
+        name: 'George'
+      }])).toBe('John, Paul, Ringo & George');
     expect(joinNames([{
       name: 'Tom'
     }, {
