@@ -2,6 +2,7 @@ const humanCatDogYears = (number) => {
 
   const array = [];
 
+
     if (number === 1) {
       array.push(number);
       array.push(15);
@@ -21,8 +22,6 @@ const humanCatDogYears = (number) => {
       return array;
 
     }
-
-
 
 }
 
