@@ -13,5 +13,5 @@ module.exports = {
   humanCatDogYears,
   reachDestination,
   joinNames,
-  getEmployerRole
+  getEmployerRole,
 };

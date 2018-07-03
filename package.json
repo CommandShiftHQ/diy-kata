@@ -21,8 +21,13 @@
   "homepage": "https://github.com/MCRcodes/diy-kata#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.5",
     "babel-jest": "^22.2.2",
     "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-mcr-codes": "^1.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.13.0",
     "jest": "^22.3.0"
   },
   "jest": {
@@ -30,7 +35,5 @@
       "^.+\\.js?$": "babel-jest"
     }
   },
-  "dependencies": {
-    "eslint": "^4.19.1"
-  }
+  "dependencies": {}
 }

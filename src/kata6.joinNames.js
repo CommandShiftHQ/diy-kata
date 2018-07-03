@@ -1,39 +1,39 @@
 const joinNames = (namesObj) => {
 
-    function string (namesObj) {
+  function string (namesObj) {
 
-		    let newArray = namesObj.map(function(x) {
-    		    return x.name;
+    const newArray = namesObj.map(function (x) {
+      return x.name;
     });
 
-		for (let i = 0; i < newArray.length; i++) {
+    for (let i = 0; i < newArray.length; i++) {
 
-        if (i === newArray.length -1) {
+      if (i === newArray.length -1) {
 
-					  newArray[i] = ` & ${newArray[i]}`;
+        newArray[i] = ` & ${newArray[i]}`;
 
-        } else if (i === newArray.length -2) {
+      } else if (i === newArray.length -2) {
 
-            newArray[i] = ` ${newArray[i]}`;
+        newArray[i] = ` ${newArray[i]}`;
 
-			  } else if (i > 0 && i < newArray.length -2) {
+      } else if (i > 0 && i < newArray.length - 2) {
 
-					  newArray[i] = ` ${newArray[i]}`;
+        newArray[i] = ` ${newArray[i]}`;
 
-        } else {
+      } else {
 
-					  newArray[i] = `${newArray[i]}`;
-        }
-    };
+        newArray[i] = `${newArray[i]}`;
+      }
+    }
 
-    let result = newArray.join();
+    const result = newArray.join();
 
-		return result;
+    return result;
 
-    } ;
+  }
 
-    return string(namesObj);
+  return string(namesObj);
 
-}
+};
 
 module.exports = joinNames;
