@@ -1,21 +1,25 @@
 const humanCatDogYears = (number) => {
-    let dogYears = 0;
-    let catYears = 0;
 
-    for (let i = 1; i <= number; i++) {
-        if (i === 1) {
-            catYears += 15;
-            dogYears += 7;
-        } else if (i === 2) {
-            catYears += 9;
-            dogYears += 9;
-        } else {
-            catYears += 4;
-            dogYears += 5;
-        }
+    let ages = [];
+    ages.push(number);
+
+    const cat = function (number) {
+        let catAge = ( number - 2 ) * 4;
+        let total = catAge + 20;
+        return total;
     }
 
-    return number;
+    ages.push(cat(number));
+
+    const dog = function (number) {
+        let dogAge = ( number - 2 ) * 5;
+        let total = dogAge + 20;
+        return total;
+    }
+
+    ages.push(dog(number));
+
+    return ages;
 }
 
 module.exports = humanCatDogYears;
