@@ -5,7 +5,7 @@ const humanCatDogYears = (number) => {
 
     const cat = function (number) {
         let catAge = ( number - 2 ) * 4;
-        let total = catAge + 20;
+        let total = catAge + 24;
         return total;
     }
 
@@ -13,7 +13,7 @@ const humanCatDogYears = (number) => {
 
     const dog = function (number) {
         let dogAge = ( number - 2 ) * 5;
-        let total = dogAge + 20;
+        let total = dogAge + 24;
         return total;
     }
 
