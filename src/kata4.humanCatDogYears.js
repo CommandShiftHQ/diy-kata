@@ -1,11 +1,11 @@
 const humanCatDogYears = (number) => {
     const yearsArray = []
 
-    const catYears = (number) =>{ 
+    let catYears = (number) =>{ 
         return 24 + ((number - 2) * 4)
     };
 
-    const dogYears = (number) => {
+    let dogYears = (number) => {
         return 24 + ((number - 2) * 5 )
     };
 
