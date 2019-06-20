@@ -1,5 +1,7 @@
-const { booleanToWord } = require('../src');
+const booleanToWord = require('../src/kata2.booleanToWord.js')
 
 describe('booleanToWord', () => {
-  // how do we create specs again???
+  it ('returns true when passed yes', () => { 
+    expect(booleanToWord('yes')).toBe(true)
+  })
 });

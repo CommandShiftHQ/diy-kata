@@ -1,5 +1,5 @@
 const fizzBuzz = require('./kata1.fizzBuzz');
-const booleanToWord = require('./kata2.booleanToWord');
+const booleanToWord = require('./kata2.booleanToWord').default;
 const numberToReversedDigits = require('./kata3.numberToReversedDigits');
 const humanCatDogYears = require('./kata4.humanCatDogYears');
 const reachDestination = require('./kata5.reachDestination');
