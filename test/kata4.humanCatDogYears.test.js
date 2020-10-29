@@ -18,10 +18,11 @@ describe("humanCatDogYears", () => {
     expect(humanCatDogYears(10)[2]).toBe(64)
   });
 
-  it("should calculate cat and dog years according to the given human year", () => {
-    expect(humanCatDogYears(3).toEqual([3, 28, 29]))
-    expect(humanCatDogYears(6).toEqual([6, 40, 44]))
+  it("should return an array of 3 numbers: human, cat and dog years respectively", () => {
+    expect(humanCatDogYears(3)).toEqual([3, 28, 29])
+    expect(humanCatDogYears(6)).toEqual([6, 40, 44])
   })
+
 });
 
 
