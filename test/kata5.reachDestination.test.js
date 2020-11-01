@@ -1,5 +1,11 @@
 const { reachDestination } = require("../src");
 
 describe("reachDestination", () => {
-  test("returns string with estimated time of arrival", () => {});
+  xit ( "returns array of human years  ",()=>{
+    expect(()).toEqual()
+  })
+  xit("returns string with estimated time of arrival", () => {
+    expect(()).toEqual()
+  });
 });
+
