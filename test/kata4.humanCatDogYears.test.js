@@ -1,8 +1,7 @@
 const { humanCatDogYears } = require("../src");
 
-// Look Ma, no handlebars!!!
 describe("humanCatDogYears", () => {
-  it("should return an array of 3 numbers", () => {
+  it("should return an array with length 3", () => {
     expect(humanCatDogYears(10)).toHaveLength(3)
   });
 
@@ -26,17 +25,3 @@ describe("humanCatDogYears", () => {
 });
 
 
-// Formulas for calculating cat and dog years
-// Cat Years
-// 15 cat years for first human year
-
-// +9 cat years for second human year
-
-// +4 cat years for each human year after that
-
-// Dog Years
-// 15 dog years for first year
-
-// +9 dog years for second year
-
-// +5 dog years for each year after that

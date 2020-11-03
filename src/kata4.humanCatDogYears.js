@@ -15,29 +15,8 @@ const calculateAnimalYears = (animal, number) => {
 const humanCatDogYears = number => {
   let catYears = calculateAnimalYears("cat", number)
   let dogYears = calculateAnimalYears("dog", number)
-
   return [number, catYears, dogYears]
 };
 
 module.exports = humanCatDogYears;
 
-
-
-
-// 10 - 2 = 8
-// 8 * 4 + 24
-
-// Formulas for calculating cat and dog years
-// Cat Years
-// 15 cat years for first human year
-
-// +9 cat years for second human year
-
-// +4 cat years for each human year after that
-
-// Dog Years
-// 15 dog years for first year
-
-// +9 dog years for second year
-
-// +5 dog years for each year after that

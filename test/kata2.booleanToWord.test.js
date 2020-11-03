@@ -9,6 +9,4 @@ describe("booleanToWord", () => {
   it((`should return "No" when passed false`), () => {
     expect(booleanToWord(false)).toEqual("No");
   });
-    
-    // how do we create specs again???
 });

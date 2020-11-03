@@ -6,15 +6,6 @@ const fizzBuzz = number => {
 };
 
 
-// check if number is a multiple of 3, 5 or both
-
-// returns Fizz when passed a multiple of 3
-
-// returns Buzz when passed a multiple of 5
-
-// returns FizzBuzz when passed a multiple 3 and 5
-
-// returns the number when it isn't a multiple of 3 or 5
 
 module.exports = fizzBuzz;
 
