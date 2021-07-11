@@ -1,5 +1,19 @@
 const { getEmployerRole } = require("../src");
+const { employees } = require("../src/data");
+
 
 describe("getEmployerRole", () => {
-  test("returns the employee's role in the company", () => {});
+
+test('get employee role',()=>{
+
+  
+
+  expect(getEmployerRole('Satti', employees)).toBe('Developer')
+
+})
+
+
+  
+
+    
 });
