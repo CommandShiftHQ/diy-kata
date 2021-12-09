@@ -1,11 +1,9 @@
 const numberToReversedDigits = (number) =>
-  number.map(
-    number
-      .toString()
-      .split("")
-      .reverse()
-      .join("")
-  );
+  number
+    .toString()
+    .split("")
+    .reverse()
+    .join("");
 {
 }
 
