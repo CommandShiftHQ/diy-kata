@@ -4,7 +4,5 @@ const numberToReversedDigits = (number) =>
     .split("")
     .reverse()
     .join("");
-{
-}
 
 module.exports = numberToReversedDigits;
