@@ -4,7 +4,8 @@
   "description": "Exercises covering basic testing with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --bail"
+    "test": "jest --verbose --bail", 
+    "test-watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
