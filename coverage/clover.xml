@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1660064338795" clover="3.2.0">
+  <project timestamp="1660064338795" name="All files">
+    <metrics statements="54" coveredstatements="51" conditionals="32" coveredconditionals="24" methods="7" coveredmethods="5" elements="93" coveredelements="80" complexity="0" loc="54" ncloc="54" packages="1" files="8" classes="8"/>
+    <file name="index.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/index.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="2" count="7" type="stmt"/>
+      <line num="3" count="7" type="stmt"/>
+      <line num="4" count="7" type="stmt"/>
+      <line num="5" count="7" type="stmt"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="7" count="7" type="stmt"/>
+      <line num="9" count="7" type="stmt"/>
+    </file>
+    <file name="kata1.fizzBuzz.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata1.fizzBuzz.js">
+      <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="2" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="7" type="stmt"/>
+    </file>
+    <file name="kata2.booleanToWord.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata2.booleanToWord.js">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="7" type="stmt"/>
+    </file>
+    <file name="kata3.numberToReversedDigits.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata3.numberToReversedDigits.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="6" count="7" type="stmt"/>
+    </file>
+    <file name="kata4.humanCatDogYears.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata4.humanCatDogYears.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="10" count="7" type="stmt"/>
+    </file>
+    <file name="kata5.reachDestination.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata5.reachDestination.js">
+      <metrics statements="16" coveredstatements="13" conditionals="20" coveredconditionals="13" methods="1" coveredmethods="1"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="7" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="4" type="cond" truecount="2" falsecount="2"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="13" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="16" count="2" type="cond" truecount="3" falsecount="1"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="19" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="22" count="5" type="stmt"/>
+      <line num="25" count="7" type="stmt"/>
+    </file>
+    <file name="kata6.joinNames.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata6.joinNames.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="3" count="7" type="stmt"/>
+    </file>
+    <file name="kata7.getEmployerRole.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata7.getEmployerRole.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="7" type="stmt"/>
+      <line num="3" count="7" type="stmt"/>
+    </file>
+  </project>
+</coverage>
