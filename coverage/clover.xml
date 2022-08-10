@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660064338795" clover="3.2.0">
-  <project timestamp="1660064338795" name="All files">
-    <metrics statements="54" coveredstatements="51" conditionals="32" coveredconditionals="24" methods="7" coveredmethods="5" elements="93" coveredelements="80" complexity="0" loc="54" ncloc="54" packages="1" files="8" classes="8"/>
+<coverage generated="1660140213827" clover="3.2.0">
+  <project timestamp="1660140213828" name="All files">
+    <metrics statements="60" coveredstatements="57" conditionals="34" coveredconditionals="25" methods="10" coveredmethods="10" elements="104" coveredelements="92" complexity="0" loc="60" ncloc="60" packages="1" files="8" classes="8"/>
     <file name="index.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/index.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <line num="1" count="7" type="stmt"/>
@@ -71,14 +71,20 @@
       <line num="25" count="7" type="stmt"/>
     </file>
     <file name="kata6.joinNames.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata6.joinNames.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <line num="1" count="7" type="stmt"/>
-      <line num="3" count="7" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="14" count="7" type="stmt"/>
     </file>
     <file name="kata7.getEmployerRole.js" path="/Users/dbelias/Documents/cyprus-code/diy-kata/src/kata7.getEmployerRole.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="7" type="stmt"/>
-      <line num="3" count="7" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="7" type="stmt"/>
     </file>
   </project>
 </coverage>
